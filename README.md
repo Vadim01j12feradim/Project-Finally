@@ -4,13 +4,19 @@
 1._ sudo snap install docker
 # 
 2._ Para poder ejecutar el proyecto basta con ejecutar docker-compose up --build en caso de tener los archivos de configuracion.
+#
 3._ En caso contrario al paso anterio descargar las imagenes directamente con docker pull sensei2001/imagen donde imagen devera ser sustituido por web/phpmyadmin/mysql.
+#
 4._ Obtenga el servicio de web y visualize el proyecto en la direccion y puerto indicados.
+#
 5._ ... 
-
+#
 # Instalacion de minikube
+#
 1._ instale virtualbox con la instruccion sudo apt-get install virtualbox.
+#
 2._ Instale minikube con sudo snap install minikube
+#
 3._ Cree la maquina virtual personalizada con la instruccion minikube start --cpus 3 --memory 5000.
 4._ Verifique el estado de minikube con minikube status.
 5._ Utilice el dashboard de minikube con minikube dashboard.
