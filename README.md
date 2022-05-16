@@ -2,6 +2,7 @@
 
 # Instalacion de Docker
 1._ sudo snap install docker
+# 
 2._ Para poder ejecutar el proyecto basta con ejecutar docker-compose up --build en caso de tener los archivos de configuracion.
 3._ En caso contrario al paso anterio descargar las imagenes directamente con docker pull sensei2001/imagen donde imagen devera ser sustituido por web/phpmyadmin/mysql.
 4._ Obtenga el servicio de web y visualize el proyecto en la direccion y puerto indicados.
