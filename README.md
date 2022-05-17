@@ -10,21 +10,26 @@
 4._ Obtenga el servicio de web y visualize el proyecto en la direccion y puerto indicados.
 #
 5._ ... 
-#
 # Instalacion de minikube
-#
 1._ instale virtualbox con la instruccion sudo apt-get install virtualbox.
 #
 2._ Instale minikube con sudo snap install minikube
 #
 3._ Cree la maquina virtual personalizada con la instruccion minikube start --cpus 3 --memory 5000.
+#
 4._ Verifique el estado de minikube con minikube status.
+#
 5._ Utilice el dashboard de minikube con minikube dashboard.
+#
 6._ Detenga minikube con minikube stop.
+#
 7._ Elimine la maquina virtual con minikube delete.
+#
 8._ Muestre los servicios de minikube con minikube service list.
+#
 9._ ...
 # Instalacion de Kubectl
+#
 1._ sudo snap instal kubectl --classic.
 2._ Una vez iniciado minikube posicionese dentro de la capeta del proyecto.
 3._ Ejecute la instruccion kubectl create -f .
