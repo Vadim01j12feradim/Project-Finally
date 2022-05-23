@@ -1,4 +1,9 @@
 # Project-Finally #
+#Integrantes 
+Izmael Guzman Murguia       -> 216728179
+Dan Abisai Flores Hernandez -> 218293064
+Jose Heriberto Rios Perez   -> 218292386
+Oscar Eduardo Ramírez Mora  -> 214598111
 
 # Instalacion de Docker
 1._ sudo snap install docker
